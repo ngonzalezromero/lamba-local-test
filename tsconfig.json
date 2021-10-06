@@ -1,0 +1,36 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "module": "commonjs",
+    "target": "ES2018",
+    "sourceMap": true,
+    "declaration": true,
+    "noLib": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "ES2018",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+
+  "include": [
+    "dist",
+    "bin",
+    "src/**/*",
+    "index.ts"
+  ]
+}
