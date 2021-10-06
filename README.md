@@ -4,7 +4,7 @@ This tool will help you running lambdas on you local environment, enabling you t
 
 ## Installation
 
-`npm i @vacasa/lambda-local`
+`npm i lamba-local-test`
 
 ## Usage
 
